@@ -4,10 +4,10 @@ import (
 	"context"
 	"net/http"
 
+	pb "github.com/mkm29/go-grpc-order-svc/gen/proto/go"
 	"github.com/mkm29/go-grpc-order-svc/pkg/client"
 	"github.com/mkm29/go-grpc-order-svc/pkg/db"
 	"github.com/mkm29/go-grpc-order-svc/pkg/models"
-	"github.com/mkm29/go-grpc-order-svc/pkg/pb"
 )
 
 type Server struct {
