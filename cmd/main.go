@@ -20,7 +20,7 @@ func main() {
 		log.Fatalln("Failed at config", err)
 	}
 
-	h := db.Init(c.DBUrl)
+	h := db.Init(db.GetConnectionString())
 
 	lis, err := net.Listen("tcp", c.Port)
 

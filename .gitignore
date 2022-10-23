@@ -24,3 +24,6 @@ Footer
 # app binary
 app
 main
+
+# env files
+*.env
